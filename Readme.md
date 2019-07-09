@@ -2,537 +2,537 @@
 
 - Add User
 
-   POST - /v1/user/add_user
+   POST - <br/>/v1/user/add_user
    
-   header - 
+   header - <br/>
    {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Authorization" : "bearer &lt;access-token&gt;"
-    }
+    }<br/>
 
-	body - 
+	body - <br/>
 	{
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"username" : "&lt;username&gt;",
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"email" : "&lt;email&gt;",
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"profile_pic" : "&lt;profile_pic&gt;",
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"base_pic" : "&lt;base_pic&gt;",
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"country" : "&lt;country&gt;",
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"state" : "&lt;state&gt;",
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"pin_code" : "&lt;pin_code&gt;",
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"address" : "&lt;address&gt;",
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"mobile" : "&lt;mobile&gt;",
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"first_name" : "&lt;first_name&gt;",
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"middle_name" : "&lt;middle_name&gt;",
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"last_name" : "&lt;last_name&gt;",
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"username" : "&lt;username&gt;",<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"email" : "&lt;email&gt;",<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"profile_pic" : "&lt;profile_pic&gt;",<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"base_pic" : "&lt;base_pic&gt;",<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"country" : "&lt;country&gt;",<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"state" : "&lt;state&gt;",<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"pin_code" : "&lt;pin_code&gt;",<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"address" : "&lt;address&gt;",<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"mobile" : "&lt;mobile&gt;",<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"first_name" : "&lt;first_name&gt;",<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"middle_name" : "&lt;middle_name&gt;",<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"last_name" : "&lt;last_name&gt;",<br/>
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"gender" : "&lt;gender&gt;"
-	}
+	}<br/>
 
 <hr/>
 
 - Update User
 
-   POST - /v1/user/update_user
+   POST - <br/>/v1/user/update_user
    
-   header - 
+   header - <br/>
    {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Authorization" : "bearer &lt;access-token&gt;"
-    }
-body - 
+    }<br/>
+body - <br/>
 	{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"username" : "&lt;username&gt;",
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"email" : "&lt;email&gt;",
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"profile_pic" : "&lt;profile_pic&gt;",
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"base_pic" : "&lt;base_pic&gt;",
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"country" : "&lt;country&gt;",
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"state" : "&lt;state&gt;",
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"pin_code" : "&lt;pin_code&gt;",
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"address" : "&lt;address&gt;",
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"mobile" : "&lt;mobile&gt;",
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"first_name" : "&lt;first_name&gt;",
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"middle_name" : "&lt;middle_name&gt;",
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"last_name" : "&lt;last_name&gt;",
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"gender" : "&lt;gender&gt;",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"username" : "&lt;username&gt;",<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"email" : "&lt;email&gt;",<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"profile_pic" : "&lt;profile_pic&gt;",<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"base_pic" : "&lt;base_pic&gt;",<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"country" : "&lt;country&gt;",<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"state" : "&lt;state&gt;",<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"pin_code" : "&lt;pin_code&gt;",<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"address" : "&lt;address&gt;",<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"mobile" : "&lt;mobile&gt;",<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"first_name" : "&lt;first_name&gt;",<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"middle_name" : "&lt;middle_name&gt;",<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"last_name" : "&lt;last_name&gt;",<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"gender" : "&lt;gender&gt;",<br/>
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"creation_time" : "&lt;gender&gt;"
-	}
+	}<br/>
 
 <hr/>
 
 - Get User
 
-   POST - /v1/user/get_user/{user_id}
+   POST - <br/>/v1/user/get_user/{user_id}<br/>
    
-   header - 
+   header - <br/>
    {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Authorization" : "bearer &lt;access-token&gt;"
-    }
+    }<br/>
 
 <hr/>
 
 - Search User By Username
 
-   POST - /v1/user/search_user_by_username/{search_name}
+   POST - <br/>/v1/user/search_user_by_username/{search_name}<br/>
    
-   header - 
+   header - <br/>
    {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Authorization" : "bearer &lt;access-token&gt;"
-    }
+    }<br/>
 
 <hr/>
 
 - Follow User
 
-   POST - /v1/user/follow_user
+   POST - <br/>/v1/user/follow_user
    
-   header - 
+   header - <br/>
    {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Authorization" : "bearer &lt;access-token&gt;"
-    }
-body - 
+    }<br/>
+body - <br/>
 	{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"user_id" : "&lt;user_id&gt;",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"user_id" : "&lt;user_id&gt;",<br/>
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"follower_id" : "&lt;follower_id&gt;"
-	}
+	}<br/>
 
 <hr/>
 
 - Unfollow User
 
-   POST - /v1/user/unfollow_user/{id}
+   POST - <br/>/v1/user/unfollow_user/{id}<br/>
    
-   header - 
+   header - <br/>
    {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Authorization" : "bearer &lt;access-token&gt;"
-    }
+    }<br/>
 
 <hr/>
 
 - Block User
 
-   POST - /v1/user/block_user/{user_id}/{block_id}
+   POST - <br/>/v1/user/block_user/{user_id}<br/>/{block_id}<br/>
    
-   header - 
+   header - <br/>
    {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Authorization" : "bearer &lt;access-token&gt;"
-    }
+    }<br/>
 
 <hr/>
 
 - Unblock User
 
-   POST - /v1/user/unblock_user/{id}
+   POST - <br/>/v1/user/unblock_user/{id}<br/>
    
-   header - 
+   header - <br/>
    {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Authorization" : "bearer &lt;access-token&gt;"
-    }
+    }<br/>
 
 <hr/>
 
 - Get User Followers
 
-   POST - /v1/user/get_user_followers/{user_id}
+   POST - <br/>/v1/user/get_user_followers/{user_id}<br/>
    
-   header - 
+   header - <br/>
    {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Authorization" : "bearer &lt;access-token&gt;"
-    }
+    }<br/>
 
 <hr/>
 
 - Get User Followings
 
-   POST - /v1/user/get_user_followings/{follower_id}
+   POST - <br/>/v1/user/get_user_followings/{follower_id}<br/>
    
-   header - 
+   header - <br/>
    {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Authorization" : "bearer &lt;access-token&gt;"
-    }
+    }<br/>
 
 <hr/>
 
 - Add User Favorite
 
-   POST - /v1/user/add_fav
+   POST - <br/>/v1/user/add_fav
    
-   header - 
+   header - <br/>
    {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Authorization" : "bearer &lt;access-token&gt;"
-    }
-body - 
+    }<br/>
+body - <br/>
 	{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"user_id" : "&lt;user_id&gt;",
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"fav_key" : "&lt;fav_key&gt;",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"user_id" : "&lt;user_id&gt;",<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"fav_key" : "&lt;fav_key&gt;",<br/>
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"fav_value" : "&lt;fav_value&gt;"
-	}
+	}<br/>
 
 <hr/>
 
 - Remove User Favorite
 
-   POST - /v1/user/rem_fav
+   POST - <br/>/v1/user/rem_fav
    
-   header - 
+   header - <br/>
    {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Authorization" : "bearer &lt;access-token&gt;"
-    }
-body - 
+    }<br/>
+body - <br/>
 	{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"user_id" : "&lt;user_id&gt;",
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"fav_key" : "&lt;fav_key&gt;",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"user_id" : "&lt;user_id&gt;",<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"fav_key" : "&lt;fav_key&gt;",<br/>
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"fav_value" : "&lt;fav_value&gt;"
-	}
+	}<br/>
 
 <hr/>
 
 - Get User Favorites
 
-   POST - /v1/user/get_user_favs/{user_id}
+   POST - <br/>/v1/user/get_user_favs/{user_id}<br/>
    
-   header - 
+   header - <br/>
    {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Authorization" : "bearer &lt;access-token&gt;"
-    }
+    }<br/>
 
 <hr/>
 
 - Get User Favorites
 
-   POST - /v1/user/add_user_message
+   POST - <br/>/v1/user/add_user_message
    
-   header - 
+   header - <br/>
    {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Authorization" : "bearer &lt;access-token&gt;"
-    }
-    body - 
+    }<br/>
+    body - <br/>
 	{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"user_id" : "&lt;user_id&gt;",
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"messager_id" : "&lt;messager_id&gt;",
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"message" : "&lt;message&gt;",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"user_id" : "&lt;user_id&gt;",<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"messager_id" : "&lt;messager_id&gt;",<br/>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"message" : "&lt;message&gt;",<br/>
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"referred_message" : "&lt;referred_message&gt;"
-	}
+	}<br/>
 
 <hr/>
 
 - Add Post
 
-   POST - /v1/post/add_post
+   POST - <br/>/v1/post/add_post
    
-   header - 
+   header - <br/>
    {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Authorization" : "bearer &lt;access-token&gt;"
-    }
-    body - 
+    }<br/>
+    body - <br/>
 	{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"owner_id" : "&lt;owner_id&gt;",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"owner_id" : "&lt;owner_id&gt;",<br/>
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"content" : "&lt;content&gt;"
-	}
+	}<br/>
 
 <hr/>
 
 - Add Tag To Post
 
-   POST - /v1/post/tag/add
+   POST - <br/>/v1/post/tag/add
    
-   header - 
+   header - <br/>
    {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Authorization" : "bearer &lt;access-token&gt;"
-    }
-    body - 
+    }<br/>
+    body - <br/>
 	{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"post_id" : "&lt;post_id&gt;",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"post_id" : "&lt;post_id&gt;",<br/>
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"tag" : "&lt;tag&gt;"
-	}
+	}<br/>
 
 <hr/>
 
 - Remove Tag To Post
 
-   POST - /v1/post/tag/remove
+   POST - <br/>/v1/post/tag/remove
    
-   header - 
+   header - <br/>
    {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Authorization" : "bearer &lt;access-token&gt;"
-    }
-    body - 
+    }<br/>
+    body - <br/>
 	{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"post_id" : "&lt;post_id&gt;",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"post_id" : "&lt;post_id&gt;",<br/>
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"tag" : "&lt;tag&gt;"
-	}
+	}<br/>
 
 <hr/>
 
 - Add Tagged User To Post
 
-   POST - /v1/post/tagged_user/add
+   POST - <br/>/v1/post/tagged_user/add
    
-   header - 
+   header - <br/>
    {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Authorization" : "bearer &lt;access-token&gt;"
-    }
-    body - 
+    }<br/>
+    body - <br/>
 	{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"post_id" : "&lt;post_id&gt;",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"post_id" : "&lt;post_id&gt;",<br/>
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"tagged_user" : "&lt;tagged_user&gt;"
-	}
+	}<br/>
 
 <hr/>
 
 - Remove Tagged User To Post
 
-   POST - /v1/post/tagged_user/remove
+   POST - <br/>/v1/post/tagged_user/remove
    
-   header - 
+   header - <br/>
    {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Authorization" : "bearer &lt;access-token&gt;"
-    }
-    body - 
+    }<br/>
+    body - <br/>
 	{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"post_id" : "&lt;post_id&gt;",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"post_id" : "&lt;post_id&gt;",<br/>
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"tagged_user" : "&lt;tagged_user&gt;"
-	}
+	}<br/>
 
 <hr/>
 
 - Add Comment Or Emoji Post
 
-   POST - /v1/post/comment_emoji
+   POST - <br/>/v1/post/comment_emoji
    
-   header - 
+   header - <br/>
    {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Authorization" : "bearer &lt;access-token&gt;"
-    }
-    body - 
+    }<br/>
+    body - <br/>
 	{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"post_id" : "&lt;post_id&gt;",
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"user_id" : "&lt;user_id&gt;",
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"comment_content" : "&lt;comment_content&gt;",
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"comment_type" : "&lt;comment_type&gt;",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"post_id" : "&lt;post_id&gt;",<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"user_id" : "&lt;user_id&gt;",<br/>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"comment_content" : "&lt;comment_content&gt;",<br/>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"comment_type" : "&lt;comment_type&gt;",<br/>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"referred_comment" : "&lt;referred_comment&gt;"
-	}
+	}<br/>
 
 <hr/>
 
 - Get Recommendations for user
 
-   POST - /v1/post/get_recommendations
+   POST - <br/>/v1/post/get_recommendations
    
-   header - 
+   header - <br/>
    {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Authorization" : "bearer &lt;access-token&gt;"
-    }
-    body - 
+    }<br/>
+    body - <br/>
 	{
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"user_id" : "&lt;user_id&gt;"
-	}
+	}<br/>
 
 <hr/>
 
 - Get all posts of user
 
-   POST - /v1/post/get_user_posts
+   POST - <br/>/v1/post/get_user_posts
    
-   header - 
+   header - <br/>
    {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Authorization" : "bearer &lt;access-token&gt;"
-    }
-    body - 
+    }<br/>
+    body - <br/>
 	{
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"owner" : "&lt;owner&gt;"
-	}
+	}<br/>
 <hr/>
 
 - Block Post
 
-   POST - /v1/post/block_post
+   POST - <br/>/v1/post/block_post
    
-   header - 
+   header - <br/>
    {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Authorization" : "bearer &lt;access-token&gt;"
-    }
-    body - 
+    }<br/>
+    body - <br/>
 	{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"owner_id" : "&lt;owner_id&gt;",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"owner_id" : "&lt;owner_id&gt;",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"content" : "&lt;content&gt;"
-	}
+	}<br/>
 
 <hr/>
 
 - Unblock Post
 
-   POST - /v1/post/unblock_post
+   POST - <br/>/v1/post/unblock_post
    
-   header - 
+   header - <br/>
    {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Authorization" : "bearer &lt;access-token&gt;"
-    }
-    body - 
+    }<br/>
+    body - <br/>
 	{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"owner_id" : "&lt;owner_id&gt;",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"owner_id" : "&lt;owner_id&gt;",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"content" : "&lt;content&gt;"
-	}
+	}<br/>
 
 <hr/>
 
 - Get Blocked Posts
 
-   POST - /v1/post/get_blocked_post/{user_id}
+   POST - <br/>/v1/post/get_blocked_post/{user_id}<br/>
    
-   header - 
+   header - <br/>
    {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Authorization" : "bearer &lt;access-token&gt;"
-    }
+    }<br/>
 
 <hr/>
 
 - Report Post
 
-   POST - /v1/post/add_post_report
+   POST - <br/>/v1/post/add_post_report
    
-   header - 
+   header - <br/>
    {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Authorization" : "bearer &lt;access-token&gt;"
-    }
-body - 
+    }<br/>
+body - <br/>
 	{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"post_id" : "&lt;post_id&gt;",
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"reporter" : "&lt;reporter&gt;",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"post_id" : "&lt;post_id&gt;",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"reporter" : "&lt;reporter&gt;",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"report_text" : "&lt;report_text&gt;"
-	}
+	}<br/>
 
 <hr/>
 
 - Remove Post Report
 
-   POST - /v1/post/rem_post_report
+   POST - <br/>/v1/post/rem_post_report
    
-   header - 
+   header - <br/>
    {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Authorization" : "bearer &lt;access-token&gt;"
-    }
-body - 
+    }<br/>
+body - <br/>
 	{
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"id" : "&lt;id&gt;"
-	}
+	}<br/>
 
 <hr/>
 
 - Get Post Reports
 
-   POST - /v1/post/get_post_reports/{post_id}
+   POST - <br/>/v1/post/get_post_reports/{post_id}<br/>
    
-   header - 
+   header - <br/>
    {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Authorization" : "bearer &lt;access-token&gt;"
-    }
+    }<br/>
 
 <hr/>
 
 - Search Post By Tag
 
-   POST - /v1/post/post_search_by_tag
+   POST - <br/>/v1/post/post_search_by_tag
    
-   header - 
+   header - <br/>
    {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Authorization" : "bearer &lt;access-token&gt;"
-    }
-body - 
+    }<br/>
+body - <br/>
 	{
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"tag" : "&lt;tag&gt;"
-	}
+	}<br/>
 
 <hr/>
 
 - Search Post By Tagged User
 
-   POST - /v1/post/post_search_by_tagged_user
+   POST - <br/>/v1/post/post_search_by_tagged_user
    
-   header - 
+   header - <br/>
    {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Authorization" : "bearer &lt;access-token&gt;"
-    }
-body - 
+    }<br/>
+body - <br/>
 	{
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"tagged_user" : "&lt;tagged_user&gt;"
-	}
+	}<br/>
 
 <hr/>
 
 - Search Post By Text
 
-   POST - /v1/post/post_search_by_text
+   POST - <br/>/v1/post/post_search_by_text
    
-   header - 
+   header - <br/>
    {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Authorization" : "bearer &lt;access-token&gt;"
-    }
-body - 
+    }<br/>
+body - <br/>
 	{
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"searched_text" : "&lt;searched_text&gt;"
-	}
+	}<br/>
 
 <hr/>
 
 - Add Post Subscription
 
-   POST - /v1/post/post_add_subscription
+   POST - <br/>/v1/post/post_add_subscription
    
-   header - 
+   header - <br/>
    {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Authorization" : "bearer &lt;access-token&gt;"
-    }
-body - 
+    }<br/>
+body - <br/>
 	{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"post_id" : "&lt;post_id&gt;",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"post_id" : "&lt;post_id&gt;",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"user_id" : "&lt;user_id&gt;"
-	}
+	}<br/>
 
 <hr/>
 
 - Remove Post Subscription
 
-   POST - /v1/post/post_rem_subscription
+   POST - <br/>/v1/post/post_rem_subscription
    
-   header - 
+   header - <br/>
    {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Content-Type" : "application/json",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Authorization" : "bearer &lt;access-token&gt;"
-    }
-body - 
+    }<br/>
+body - <br/>
 	{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"post_id" : "&lt;post_id&gt;",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"post_id" : "&lt;post_id&gt;",<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"user_id" : "&lt;user_id&gt;"
-	}
+	}<br/>
 
 
 
