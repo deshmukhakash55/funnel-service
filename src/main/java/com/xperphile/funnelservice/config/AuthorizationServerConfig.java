@@ -49,4 +49,7 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
 		endpoints.tokenStore(tokenStore)
 				.authenticationManager(authenticationManager);
 	}
+
+
+
 }

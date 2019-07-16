@@ -5,6 +5,7 @@ import com.xperphile.funnelservice.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.security.Principal;
 import java.util.List;
 
 @RestController
@@ -28,6 +29,11 @@ public class UserController {
     public String delete(@PathVariable(value = "id") Long id){
         userService.delete(id);
         return "success";
+    }
+
+    @RequestMapping(value = "/current_user", method = RequestMethod.POST)
+    public String getCurrentUser(Principal principal){
+        return principal.getName();
     }
 
 }

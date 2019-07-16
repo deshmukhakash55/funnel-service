@@ -18,6 +18,8 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
 		resources.resourceId(RESOURCE_ID).stateless(false);
 	}
 
+
+
 	@Override
 	public void configure(HttpSecurity http) throws Exception {
         http.
