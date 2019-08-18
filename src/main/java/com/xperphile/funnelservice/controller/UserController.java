@@ -3,10 +3,14 @@ package com.xperphile.funnelservice.controller;
 import com.xperphile.funnelservice.model.User;
 import com.xperphile.funnelservice.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.security.Principal;
+import java.util.Collections;
 import java.util.List;
+import java.util.Map;
 
 @RestController
 @RequestMapping("/users")
@@ -32,8 +36,10 @@ public class UserController {
     }
 
     @RequestMapping(value = "/current_user", method = RequestMethod.POST)
-    public String getCurrentUser(Principal principal){
-        return principal.getName();
+    public ResponseEntity getCurrentUser(Principal principal){
+        Map<String, String> map = Collections.singletonMap("username", "" + principal.getName());
+        ResponseEntity responseEntity = new ResponseEntity(map, HttpStatus.ACCEPTED);
+        return responseEntity;
     }
 
 }
